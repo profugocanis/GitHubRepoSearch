@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitHubRepoSearch</string>
+    <string name="loading">Loading...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test">test</string>
+    <string name="search">Search</string>
+    <string name="readmy">Readmy</string>
+</resources>

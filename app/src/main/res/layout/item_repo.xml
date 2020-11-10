@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/little"
+    android:layout_marginBottom="@dimen/little"
+    android:gravity="center|start"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageRepo"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_gravity="top"
+        android:layout_marginStart="@dimen/little" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal"
+        android:layout_marginEnd="@dimen/normal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtRepoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/ic_star" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtStars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtLanguage"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_height="wrap_content"
+                android:text="@string/test" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtLicense"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="@dimen/normal"
+                android:layout_height="wrap_content"
+                android:text="@string/test" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="@string/readmy"
+        android:layout_marginEnd="@dimen/normal"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

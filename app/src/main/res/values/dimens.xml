@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="normal">8sp</dimen>
+    <dimen name="big">16sp</dimen>
+    <dimen name="barHeigth">56sp</dimen>
+    <dimen name="little">4sp</dimen>
+</resources>

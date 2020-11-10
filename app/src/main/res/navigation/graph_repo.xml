@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_repo"
+    app:startDestination="@id/gitHubRepoListFragment">
+
+    <fragment
+        android:id="@+id/gitHubRepoListFragment"
+        android:name="com.ijk.githubreposearch.ui.repo_list.GitHubRepoListFragment"
+        android:label="fragment_git_hub_repo_list"
+        tools:layout="@layout/fragment_git_hub_repo_list" />
+    <fragment
+        android:id="@+id/repoFragment"
+        android:name="com.ijk.githubreposearch.ui.repo.RepoFragment"
+        android:label="fragment_repo"
+        tools:layout="@layout/fragment_repo" />
+</navigation>
